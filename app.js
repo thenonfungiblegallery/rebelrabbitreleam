@@ -24,6 +24,8 @@ function show() {
     prova.style.marginLeft = '0';
 }
 function close() {
-    mainMenu.style.top = '-100%';
-    icone.style.top = '-100%';
+    //mainMenu.style.top = '-100%';
+    //icone.style.top = '-100%';
+    mainMenu.style.display = 'none';
+    icone.style.display = 'none';
 }
