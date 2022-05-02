@@ -21,7 +21,6 @@ menu_items.forEach(item => {
 function show() {
     mainMenu.style.display = 'flex';
     mainMenu.style.top = '0';
-    prova.style.marginLeft = '0';
 }
 function close() {
     //mainMenu.style.top = '-100%';
