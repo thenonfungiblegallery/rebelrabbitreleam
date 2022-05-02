@@ -22,7 +22,6 @@ function show() {
     mainMenu.style.display = 'flex';
     mainMenu.style.top = '0';
     prova.style.marginLeft = '0';
-    logo
 }
 function close() {
     mainMenu.style.top = '-100%';
