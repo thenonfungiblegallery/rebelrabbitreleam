@@ -133,8 +133,16 @@ nav .logo {
 
 @media (max-width: 900px) {
 
+  nav {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    display: flex;
+  }
+
   nav .mainMenu {
-    /*height: 100vh;*/
+    height: 100vh;
     position: fixed;
     top: 0px;
     right: 0px;
@@ -171,5 +179,9 @@ nav .logo {
   .icons i {
     display: inline-block;
     padding: 12px;
+  }
+
+  .content .explain {
+    display: none;
   }
 }
