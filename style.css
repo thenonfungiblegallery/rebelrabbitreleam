@@ -12,6 +12,7 @@ nav {
   background: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   position: fixed;
+  z-index: 1;
   width: 100%;
   display: flex;
   align-items: center;
@@ -97,25 +98,31 @@ nav .logo {
 
 
 .content {
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   background-image: url(./images/sfondi2.jpg);
   background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  justify-content: right;
 }
 
 .explain {
   border: 1px solid red;
   background: black;
-  opacity: 2;
+  opacity: 0.7;
   border-radius: 20px;
   padding: 20px 20px;
   margin-top: 150px;
-  position: absolute;
-  margin-left: 800px;
+  height: 280px;
+  width: 400px;
   margin-right: 50px;
+  /*position: absolute;
+  margin-left: 800px;
+  margin-right: 50px;*/
 }
 
-.explain h2 {
+.explain h3 {
   padding: 5px 0px 20px 0px;
   color: white;
 }
