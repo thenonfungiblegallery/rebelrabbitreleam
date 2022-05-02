@@ -11,6 +11,7 @@ body {
 nav {
   background: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
+  min-height: 50px;
   position: fixed;
   z-index: 1;
   width: 100%;
@@ -137,6 +138,7 @@ nav .logo {
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     position: fixed;
+    min-height: 50px;
     width: 100%;
     display: flex;
   }
