@@ -11,7 +11,6 @@ body {
 nav {
   background: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
-  min-height: 50px;
   position: fixed;
   z-index: 1;
   width: 100%;
@@ -103,7 +102,7 @@ nav .logo {
   width: 100%;
   background-image: url(./images/sfondi2.jpg);
   background-repeat: no-repeat;
-  background-position: bottom;
+  /*background-position: bottom;*/
   display: flex;
   justify-content: right;
 }
@@ -138,7 +137,6 @@ nav .logo {
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     position: fixed;
-    min-height: 50px;
     width: 100%;
     display: flex;
   }
@@ -149,12 +147,12 @@ nav .logo {
     top: 0px;
     right: 0px;
     left: 0px;
-    z-index: 2;
+    z-index: 10;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: rgb(0, 0, 0);
-    transition: top 1s ease 0s;
+    /*transition: top 1s ease 0s;*/
     display: none;
   }
 
