@@ -152,7 +152,7 @@ nav .logo {
     justify-content: center;
     align-items: center;
     background: rgb(0, 0, 0);
-    /*transition: top 1s ease 0s;*/
+    transition: top 1s ease 0s;
     display: none;
   }
 
