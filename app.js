@@ -23,8 +23,8 @@ function show() {
     mainMenu.style.top = '0';
 }
 function close() {
-    //mainMenu.style.top = '-100%';
+    mainMenu.style.top = '-100%';
     //icone.style.top = '-100%';
-    mainMenu.style.display = 'none';
-    icone.style.display = 'none';
+    //mainMenu.style.display = 'none';
+    //icone.style.display = 'none';
 }
