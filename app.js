@@ -23,7 +23,7 @@ function show() {
     mainMenu.style.top = '0';
 }
 function close() {
-    mainMenu.style.top = '-2000px';
+    mainMenu.style.top = '-1000px';
     //icone.style.top = '-100%';
     //mainMenu.style.display = 'none';
     //icone.style.display = 'none';
