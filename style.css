@@ -252,7 +252,17 @@ footer h3 {
   width: 32px;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1360px) {
+  .content {
+    height: 70vh;
+    width: 100%;
+    background-image: url(./images/sfondi2.jpg);
+    background-repeat: no-repeat;
+    /*background-position: bottom;*/
+    display: flex;
+    justify-content: right;
+  }
+
   .show-team {
     padding: 10px 100px;
     display: flex;
